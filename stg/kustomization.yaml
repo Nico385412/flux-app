@@ -8,4 +8,4 @@ resources:
   - imageRepo.yaml
 images:
   - name: docker.io/nico385412/configmaps
-    newTag: 1.0.0 # {"$imagepolicy": "stg:ip-hello:tag"}
+    newTag: 2.0.0 # {"$imagepolicy": "stg:ip-hello:tag"}
