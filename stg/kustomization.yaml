@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: stg
 resources:
   - ../base/app
+  - config.yaml
   - imageAutomation.yaml
   - imagePolicy.yaml
   - imageRepo.yaml
