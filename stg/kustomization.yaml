@@ -3,3 +3,10 @@ kind: Kustomization
 namespace: stg
 resources:
   - ../base/app
+  - imageAutomation.yaml
+  - imagePolicy.yaml
+  - imageRepo.yaml
+
+images:
+- name: docker.io/nico385412/configmaps
+  newTag: 2.0.0 # {"$imagepolicy": "stg:ip-hello:tag"}

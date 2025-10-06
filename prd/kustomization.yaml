@@ -3,3 +3,10 @@ kind: Kustomization
 namespace: prd
 resources:
   - ../base/app
+  - imageAutomation.yaml
+  - imagePolicy.yaml
+  - imageRepo.yaml
+
+images:
+- name: docker.io/nico385412/configmaps
+  newTag: 1.0.0 # {"$imagepolicy": "prd:ip-hello:tag"}
