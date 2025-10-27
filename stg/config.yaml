@@ -4,4 +4,4 @@ metadata:
   name: my-config
 data:
   NAME: "Nicolas STG"
-  COLOR: "red"
+  COLOR: "lightblue"
