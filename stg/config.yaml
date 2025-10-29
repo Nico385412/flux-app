@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: my-config
 data:
-  NAME: "Mat STG"
-  COLOR: "red"
+  NAME: "Dam STG"
+  COLOR: "lightblue"
